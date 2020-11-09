@@ -1,0 +1,14 @@
+.productTile {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+
+    .backBtn {
+        background: transparent;
+        outline: none;
+        border: none;
+        display: flex;
+        color: white;
+        cursor: pointer;
+    }
+}

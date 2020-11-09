@@ -1,0 +1,63 @@
+.wrp {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    background-color: #282c34;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    padding: 30px 50px;
+}
+
+.wrp > div {
+    flex-direction: column;
+}
+
+.products {
+    width: 50rem;
+    max-width: 90%;
+    margin: 2rem auto;
+}
+
+.products ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.products li {
+    padding: 1rem;
+    margin: 1rem 0;
+    border: 1px solid yellow;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .btn {
+        width: 100px;
+        height: 40px;
+        border-radius: 4px;
+        padding: 5px 10px;
+        margin: 5px;
+        display: flex;
+        align-items: center;
+        outline: none;
+        border: none;
+        justify-content: center;
+        font-weight: bold;
+        color: saddlebrown;
+        font-size: 12px;
+        cursor: pointer;
+        background: aquamarine;
+        box-sizing: border-box;
+        text-decoration: none;
+        &:hover, &:active {
+            background: darken(aquamarine, 10);
+        }
+    }
+}

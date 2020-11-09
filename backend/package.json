@@ -1,0 +1,31 @@
+{
+  "name": "simple-shop",
+  "version": "1.0.0",
+  "description": "simple shop",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cross-env NODE_ENV=production nodemon server.js",
+    "client:install": "npm install --prefix ../frontend",
+    "client:build": "npm run build --prefix ../frontend"
+  },
+  "keywords": [
+    "node",
+    "rest-api"
+  ],
+  "author": "InSh",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.9",
+    "ws": "^7.3.1"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "nodemon": "^2.0.4"
+  }
+}
